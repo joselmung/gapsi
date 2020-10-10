@@ -24,7 +24,8 @@ const  Header = () => {
   const [resetAll,setResetAll] = useState(false);
   const reset = () =>{
       localStorage.removeItem('products');
-      setResetAll(true);
+      //setResetAll(true);
+      window.location.href = '/';
   }
 
   return (
