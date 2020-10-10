@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
       <CardContent>
         <div style={{display:'flex',justifyItems:'center'}}>
           <div style={{color:'gray',fontWeight:'bold',paddingRight:'3em'}}>{product.NAME}</div>
-          <div style={{color:'#2099CB'}}>{product.PRICE}</div>
+          <div style={{color:'#2099CB'}}>{`$ ${product.PRICE}`} </div>
           
         </div>
         <div style={{display:'flex'}}>
