@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 1fr ;
+}
+
+.header{
+
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self:center;
+}
+
+.logo{
+    padding-top: 8em;
+    align-self: center;
+}
+
+.body{
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-items: center;
+    
+}
+
+.title {
+    padding-top: 2em;
+    font-size: 2.5em;
+    color: gray;
+    font-weight: bold;
+}
+

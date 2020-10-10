@@ -1,0 +1,16 @@
+.container{
+   width: 100%; 
+}
+.continue{
+    padding-top: 3em;
+}
+
+.button {
+   background-color: #2099CB; 
+   font-size: 2.5em;
+   color:white;
+   border-radius: 15px;
+   border: none;
+   padding: 0.6em;
+   cursor: pointer;
+}
